@@ -7,7 +7,7 @@ const voluntario = axios.get('/perfil/voluntario')
         <div class="profile-card">
         <p id="profile-id">${response.data.id}</p>
         <p>${response.data.nome} ${response.data.sobrenome}</p>
-        <p>${response.data.nascimento}</p>
+        <p>${response.data.idade}</p>
         <p>${response.data.cpf}</p>
         <p>${response.data.email}</p>
         <p>${response.data.celular}</p>
