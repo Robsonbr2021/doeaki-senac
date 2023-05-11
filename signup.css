@@ -97,6 +97,18 @@ form {
   width: 30rem;
 }
 
+input[type="radio"] {
+  margin-left: 0px;
+}
+.gender {
+  display: flex;
+  flex-direction: row;
+}
+.gender, item {
+  justify-content: space-evenly;
+  margin-right: 0px;
+}
+
 label {
   font-size: 2rem;
   text-align: left;
